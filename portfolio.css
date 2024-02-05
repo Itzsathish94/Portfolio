@@ -1,0 +1,157 @@
+.body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.card {
+    background-color:#ab86c9;
+    border: 0;
+}
+
+#name {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.card {
+    color: whitesmoke;
+}
+
+#about {
+    margin-top: 30px;
+}
+
+#buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+
+#HTML {
+    color: rgb(27, 26, 26);
+    font-size: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+#CSS {
+    color: rgb(27, 26, 26);
+    font-size: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+#JS {
+    color: rgb(27, 26, 26);
+    font-size: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+.btn {
+    margin-bottom: 50px;
+}
+
+#bold {
+    margin-top: -50px;
+}
+
+#bold {
+    margin-top: -50px;
+}
+
+#bold {
+    margin-top: -50px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#tagicon {
+    display: flex;
+    justify-content: end;
+}
+
+#page3 {
+   background-image:url(Assets/Images/5570863.jpg);
+   background-size: cover;
+}
+
+#career {
+    background-image: url(Assets/Images/5570863.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#career h1 {
+    font-size: 100px;
+    font-weight:600;
+    margin-top: -20px;
+}
+
+#pgbg {
+    background-image:url(Assets/Images/5570863.jpg);
+    background-size: cover;
+}
+
+.smlinks {
+    display: flex;
+    justify-content: center;
+    justify-items: auto;
+    justify-content:space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.navbar li:hover{
+   background-color:#ab86c9;
+   border-radius: 10px;
+    
+}
+
+/* Media Query */
+
+@media only screen and (max-width:400px){
+#sapic {
+    height: 300px!important;
+    
+
+}
+}
+
+@media only screen and (max-width:300px){
+    #careername {
+        font-size: 75px !important;
+    
+    }
+    }
+
+   
